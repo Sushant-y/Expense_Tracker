@@ -22,3 +22,13 @@ The application allows users to record expenses, store them locally, and generat
 
 Expenses are stored locally in a text file (ignored via `.gitignore`) using the following format:
 
+```
+YYYY-MM-DD HH:MM:SS,amount,category
+```
+
+Example:
+```
+2025-12-18 14:01:22,250.0,Food
+2025-12-18 18:40:10,120.0,Travel
+```
+
